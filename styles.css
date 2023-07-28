@@ -9,7 +9,7 @@ body {
     width: 100%;
     max-width: 800px;
     height: 100%;
-    max-heigt: 100vh;
+    max-height: 100vh;
     margin: 0 auto;
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center the containers horizontally */
