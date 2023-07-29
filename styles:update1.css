@@ -54,7 +54,7 @@ body {
 }
 
 .middle img {
-    max-width: 100%; /* Make the image responsive within its container */
+    max-width: 600px; /* Make the image responsive within its container */
     height: auto;
     display: block; /* Remove any default spacing for inline elements */
 }
