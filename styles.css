@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 200vh;
+    margin: 10px auto;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the containers horizontally */
+    align-items: center; /* center the containers vertically */
+    padding: 20px;
+    background-color: #fff;
+}
+
+.left, .middle, .right {
+    padding: 10px; /* Add some padding between the containers */
+}
+
+.left {
+    flex: 18%; /* Take 18% of the available space */
+    text-align: left; /* Align the links and title to the left */
+}
+
+.title {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px; /* Add spacing below the title */
+}
+
+.left a {
+    display: block; /* Display the links as blocks to create a vertical list */
+    color: blue; /* Set the link color to blue */
+    text-decoration: underline; /* Add underline to the links */
+    font-size: 16px;
+    margin-bottom: 10px; /* Add spacing between the links */
+}
+
+.left a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: blue; /* Change link color to blue on hover */
+}
+
+.middle {
+    flex: 40%; /* Take 40% of the available space */
+    text-align: center; /* Center the image horizontally within the container */
+    margin-top: 10px; /* Add a small top margin */
+    margin-right: 10px;
+}
+
+.middle img {
+    max-width: 400px;
+    display: block; /* Remove any default spacing for inline elements */
+}
+
+.right {
+    flex: 42%; /* Take 42% of the available space */
+}
+
+.right p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left; /* Align the text to the left */
+    margin: 0; /* Remove the default margin from the paragraph */
+    padding-top: 0; /* Remove top padding from the paragraph */
+}
+
+/* Media query for screens with a width less than 600 pixels */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Stack the containers vertically */
+    }
+}
+
