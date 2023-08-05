@@ -54,7 +54,7 @@ body {
 }
 
 .middle img {
-    max-width: 300px;
+    max-width: 200px;
     display: block; /* Remove any default spacing for inline elements */
 }
 
