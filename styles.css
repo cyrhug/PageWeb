@@ -23,7 +23,7 @@ body {
 }
 
 .left {
-    flex: 18%; /* Take 18% of the available space */
+    flex: 23%; /* Take 18% of the available space */
     text-align: left; /* Align the links and title to the left */
 }
 
@@ -54,12 +54,12 @@ body {
 }
 
 .middle img {
-    max-width: 400px;
+    max-width: 300px;
     display: block; /* Remove any default spacing for inline elements */
 }
 
 .right {
-    flex: 42%; /* Take 42% of the available space */
+    flex: 37%; /* Take 42% of the available space */
 }
 
 .right p {
