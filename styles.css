@@ -48,7 +48,7 @@ body {
 }
 
 .middle {
-    flex: 40%; /* Take 40% of the available space */
+    flex: 30%; /* Take 40% of the available space */
     text-align: center; /* Center the image horizontally within the container */
     margin-top: 10px; /* Add a small top margin */
     margin-right: 10px;
@@ -61,7 +61,7 @@ body {
 }
 
 .right {
-    flex: 37%; /* Take 37% of the available space */
+    flex: 47%; /* Take 37% of the available space */
 }
 
 .right p {
