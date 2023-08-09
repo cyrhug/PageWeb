@@ -23,7 +23,7 @@ body {
 }
 
 .left {
-    flex: 23%; /* Take 23% of the available space */
+    flex: 25%; /* Take 23% of the available space */
     text-align: left; /* Align the links and title to the left */
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .right {
-    flex: 47%; /* Take 37% of the available space */
+    flex: 45%; /* Take 37% of the available space */
 }
 
 .right p {
