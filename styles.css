@@ -39,7 +39,8 @@ body {
     text-decoration: underline; /* Add underline to the links */
     font-size: 16px;
     margin-bottom: 10px; /* Add spacing between the links */
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .left a:hover {
@@ -51,8 +52,8 @@ body {
     flex: 28%;
     text-align: center; /* Center the image horizontally within the container */
     margin-top: 10px; /* Add a small top margin */
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .middle img {
@@ -70,7 +71,7 @@ body {
     text-align: left; /* Align the text to the left */
     margin-top: 10px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     padding-top: 0; /* Remove top padding from the paragraph */
 }
 
