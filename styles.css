@@ -23,7 +23,7 @@ body {
 }
 
 .left {
-    flex: 25%;
+    flex: 27%;
     text-align: left; /* Align the links and title to the left */
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .middle {
-    flex: 30%;
+    flex: 28%;
     text-align: center; /* Center the image horizontally within the container */
     margin-top: 10px; /* Add a small top margin */
     margin-right: 10px;
