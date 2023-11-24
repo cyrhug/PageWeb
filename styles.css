@@ -15,7 +15,6 @@ body {
     justify-content: center; /* Center the containers horizontally */
     align-items: center; /* center the containers vertically */
     padding: 20px;
-    background-color: #ffb500
 }
 
 .left, .middle, .right, .half-left, .half-right {
