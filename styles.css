@@ -1,7 +1,8 @@
 body {
-    margin: 0;
+    margin: 20;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #ffb500
 }
 
 .container {
@@ -9,27 +10,26 @@ body {
     max-width: 1000px;
     height: 100%;
     max-height: 200vh;
-    margin: 0px;
+    margin: 10px auto;
+    display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center the containers horizontally */
     align-items: center; /* center the containers vertically */
     padding: 20px;
+    background-color: #ffb500
 }
 
 .left, .middle, .right, .half-left, .half-right {
     padding: 10px;
 }
-
 .left {
     flex: 25%;
     text-align: left; /* Align the links and title to the left */
 }
-
 .title {
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 30px; /* Add spacing below the title */
 }
-
 .left a {
     display: block; /* Display the links as blocks to create a vertical list */
     color: blue; /* Set the link color to blue */
@@ -37,26 +37,22 @@ body {
     font-size: 16px;
     margin-bottom: 12px; /* Add spacing between the links */
 }
-
 .middle {
     flex: 28%;
     text-align: center; /* Center the image horizontally within the container */
     margin-right: 15px;
     margin-left: 5px;
 }
-
 .middle img {
     max-width: 300px;
     display: block; /* Remove any default spacing for inline elements */
 }
-
 .right {
     flex: 47%;
     text-align: center;
     margin-right: 10px;
     margin-left: 10px;
 }
-
 .right p {
     font-size: 16px;
     line-height: 1.6;
@@ -67,6 +63,7 @@ body {
 }
 
 .half-left {
+    background-color: #f0f0f0;
     overflow: hidden;
 }
 
@@ -75,7 +72,6 @@ body {
     height: 100%;
     border: none;
 }
-
 .half-right {
     flex: auto;
     text-align: right;
@@ -83,7 +79,6 @@ body {
     margin-right: 10px;
     margin-right: 10px;
 }
-
 .half-right p {
     text-align: center;
     font-size: 16px;
@@ -91,7 +86,6 @@ body {
     margin-top: 10px;
     margin-right: 10px;
     padding-top: 0;
-
 }
 @media (max-width: 800px) {
     .container {
